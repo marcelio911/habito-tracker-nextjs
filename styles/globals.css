@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* src/pages/_app.js */
+.dia .theme-background {
+    background-color: #81C0D7;
+}
+.dia .theme-color {
+    color: #E4F3F9;
+}
+
+.theme-card-light-background {
+    background: #FFF;
+}
+
+.theme-card-light-color {
+    color: #2F2F2F;
+}
+
+.theme-card-title {
+    color: #2F2F2F;
+}
+
+.theme-card-light-item-list {
+    background: #FBFBFB;
+    margin: 0.7vh;
+}

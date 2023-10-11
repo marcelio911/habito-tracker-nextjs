@@ -1,0 +1,53 @@
+@import '~@nebular/theme/styles/theming';
+@import '~@nebular/theme/styles/themes/default';
+
+
+$nb-themes: nb-register-theme((
+
+  primary-100: #E4F5E6,
+  primary-200: #CAEBD2,
+  primary-300: #9BC3A9,
+  primary-400: #658875,
+  primary-500: #263A31,
+  primary-600: #1B312A,
+  primary-700: #132924,
+  primary-800: #0C211E,
+  primary-900: #071B1A,
+  success-100: #EAF8CD,
+  success-200: #D2F29D,
+  success-300: #A8D967,
+  success-400: #7AB43D,
+  success-500: #458210,
+  success-600: #346F0B,
+  success-700: #265D08,
+  success-800: #1A4B05,
+  success-900: #123E03,
+  info-100: #C7F9EF,
+  info-200: #92F4E8,
+  info-300: #58DED8,
+  info-400: #2FB7BD,
+  info-500: #008091,
+  info-600: #00647C,
+  info-700: #004B68,
+  info-800: #003654,
+  info-900: #002745,
+  warning-100: #FFEED8,
+  warning-200: #FFD8B2,
+  warning-300: #FFBD8B,
+  warning-400: #FFA46F,
+  warning-500: #FF793F,
+  warning-600: #DB562E,
+  warning-700: #B7391F,
+  warning-800: #932114,
+  warning-900: #7A0F0C,
+  danger-100: #FEF5D4,
+  danger-200: #FDE9A9,
+  danger-300: #FAD87D,
+  danger-400: #F5C75C,
+  danger-500: #EFAC29,
+  danger-600: #CD8C1D,
+  danger-700: #AC6E14,
+  danger-800: #8A530D,
+  danger-900: #723F07
+
+), custom-theme, default);
