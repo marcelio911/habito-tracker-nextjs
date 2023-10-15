@@ -52,8 +52,8 @@ module.exports = {
           "2xl": "1536px",
         },
         colors: {
-          background: "#FCFCFF", // or DEFAULT
-          foreground: "#81C0D7", // or 50 to 900 DEFAULT
+          background: "#81C0D7", // or DEFAULT
+          foreground: "#FCFCFF", // or 50 to 900 DEFAULT
           "primary": {
             "100": "#E4F5E6",
             "200": "#CAEBD2",

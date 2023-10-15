@@ -2,28 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-size: larger;
+    font-weight: bold;
+    /* font-family: 'Inter'; */
+
+}
 
 /* src/pages/_app.js */
 .dia .theme-background {
-    background-color: #81C0D7;
+    background-color: #C9F1FF;
 }
 .dia .theme-color {
-    color: #E4F3F9;
+    color: #81C0D7;
 }
 
-.theme-card-light-background {
-    background: #FFF;
+.dia .theme-box {
+    font-weight: lighter;
+}
+.dia .theme-box-background {
+    background: #C9F1FF;
 }
 
-.theme-card-light-color {
+.dia .theme-card-color {
+    color: #0B5C79;
+}
+
+.dia .theme-box-title {
     color: #2F2F2F;
+    font-weight: bold;
 }
 
-.theme-card-title {
-    color: #2F2F2F;
+.dia .theme-card-item-timer-event {
+    color: #0B5C79;
+    font-weight: bold;
+
 }
 
-.theme-card-light-item-list {
+.dia .theme-card-item-list {
+    background: transparent;
+    padding: 0.7vh;
+}
+
+.dia .theme-card-item-list.completed, .theme-card-item-list > .completed{
+    color: #37C871;
+}
+
+.dia .theme-card-item-list-box.completed {
+    background: #301DA7;
+}
+
+.dia .theme-card-item-list-box {
     background: #FBFBFB;
-    margin: 0.7vh;
+    width: 90%;
 }
+
